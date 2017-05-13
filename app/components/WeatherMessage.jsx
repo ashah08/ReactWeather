@@ -3,7 +3,7 @@ var React = require('react');
 //stateless component
 var WeatherMessage = ({temp, location}) => {
   return (
-      <h3>Current Weather is {temp}F in {location}</h3>
+      <h3 className="text-center">Current Weather is {temp}F in {location}</h3>
   );
 }
 module.exports = WeatherMessage;
